@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 31 e 32</title>
+    <link rel="stylesheet" href="exe5.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Analisador de números</h1>
+    </header>
+    <section>
+      <div>
+        <p>
+          Número (entre 1 a 100)
+          <input type="number" name="numero" id="numero" />
+          <input type="button" value="Adicionar" onclick="adicionar()" />
+        </p>
+      </div>
+
+      <div>
+        <select name="lista" id="lista" size="7"></select>
+        <div>
+          <input type="button" value="Finalizar" onclick="finalizar()" />
+        </div>
+      </div>
+
+      <div>
+        <p id="mensagem"></p>
+      </div>
+    </section>
+
+    <footer
+      style="
+        background-color: rgba(0, 0, 0, 0.25);
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+        padding: 10px;
+        font-family: sans-serif;
+      "
+    >
+      Site criado por
+      <a
+        href="https://github.com/andreasseituno"
+        target="_blank"
+        style="text-decoration: none; color: white; font-weight: bolder"
+        >André Asseituno</a
+      >
+      para o
+      <a
+        href="https://www.youtube.com/c/CursoemV%C3%ADdeo"
+        target="_blank"
+        style="text-decoration: none; color: white; font-weight: bolder"
+        >Curso em Vídeo</a
+      >
+    </footer>
+  </body>
+</html>
+
+<script src="exe5.js"></script>
